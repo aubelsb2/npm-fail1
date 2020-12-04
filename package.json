@@ -1,0 +1,12 @@
+{
+  "name": "untitled3",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "scripts": {
+    "buildall": "node buildall.js",
+    "installall": "node installall.js",
+    "installbuildall": "node installbuildall.js",
+    "updateall": "node updateall.js"
+  }
+}

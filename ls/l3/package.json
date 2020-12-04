@@ -1,0 +1,27 @@
+{
+  "name": "@arran/l3",
+  "private": true,
+  "license": "ISC",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.12.1",
+    "@types/aws-lambda": "^8.10.64",
+    "@types/body-parser": "^1.19.0",
+    "@types/jest": "^26.0.16",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.0.5",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^1.0.0-rc.7",
+    "@arran/l1": "file:../l1",
+    "@arran/l2": "file:../l2"
+  }
+}
